@@ -1,0 +1,6 @@
+@dashApi_HostAddress = http://localhost:5161
+
+GET {{dashApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
