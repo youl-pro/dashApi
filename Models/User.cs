@@ -9,6 +9,4 @@
         public ICollection<Project> Projects { get; set; } = new List<Project>();
         public ICollection<Notification> Notifications { get; set; } = new List<Notification>();
     }
-
-    
-    }
+}
