@@ -1,0 +1,26 @@
+.sidebar{
+ width: 200px;
+ border-right: 1px solid #2563EB;
+ border-radius: 10px;
+}
+
+.sidebar ul {
+
+    list-style: none;
+    margin-top: 10px;
+}
+
+.sidebar ul li {
+
+    margin-top: 10px;
+}
+
+.sidebar button {
+  display: inline-block;
+  background-color: #30aee8;
+  color: white;
+  width: 100px;
+  margin:10px;
+  border-radius: 16px;
+  padding: 5px;
+}

@@ -1,0 +1,32 @@
+body{
+    margin: 0; 
+    padding: 0;
+  background-color:   #0F172A;
+}
+
+.Container{
+    background-color: white;
+    width: 800px;
+    max-width: 90%;
+    margin: 50px auto;
+    padding: 20px 20px;
+    border-radius: 10px;
+     box-shadow: 0 2px 5px gray;
+}
+
+
+.content
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.affiche {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}

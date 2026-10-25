@@ -1,0 +1,48 @@
+.navbar {
+  margin: 5px;
+  padding: 5px;
+  background-color: #bae6fd;
+  border-bottom: 1px solid #1D4ED8;
+  border-radius: 10px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+input {
+  width: 200px;
+  height: 40px;
+  color: #222;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background-color: #F8F9FA;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  outline: none;
+  transition: 0.2s;
+}
+
+input:focus {
+  background-color: #FFFFFF;
+  border-color: #3B82F6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+.bell {
+  background: none;
+   color:#1D4ED8;
+   border: none;
+}
+
+.bell:hover{
+
+  background-color: #bae6fd;
+  color: tomato;
+}
