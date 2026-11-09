@@ -85,4 +85,4 @@ L'application est disponible sur [http://localhost:5173].
 
 ## Auteur
 
-Ayanleh Osman, étudiant en informatique à l'UQTR :https://www.linkedin.com/in/ayanleh-osman-55b7b939b/
+Ayanleh, étudiant en informatique à l'UQTR :https://www.linkedin.com/in/ayanleh-osman-55b7b939b/
