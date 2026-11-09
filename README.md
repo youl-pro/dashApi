@@ -15,6 +15,7 @@ Application web full-stack où chaque utilisateur se connecte et gère **ses pro
 
 ![Page de connexion](docs/login.png)
 ![Tableau de bord](docs/dashboard.png)
+![Tableau des tâches](docs/task.png)
 
 ## Stack technique
 
