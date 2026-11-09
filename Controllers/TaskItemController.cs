@@ -48,8 +48,10 @@ namespace dashApi.Controllers
         public ActionResult<TaskItem> CreateTask(TaskItem task, [FromQuery] int userId)
         {
             // Le projet visé doit exister ET appartenir à cet utilisateur
-            if (!_context.Projects.Any(p => p.Id == task.ProjectId && p.UserId == userId))
-                return BadRequest("Projet introuvable.");
+            bool existingProjet = !_context.Projects.Any(p => p.Id == task.ProjectId && p.UserId == userId);
+            
+            if (existingProjet)
+                 return BadRequest("Projet introuvable.");
 
             task.Id = 0; // c'est la base qui attribue l'Id
             task.CreatedAt = DateTime.UtcNow;
